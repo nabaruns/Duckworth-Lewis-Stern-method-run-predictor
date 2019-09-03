@@ -6,7 +6,7 @@ from scipy.optimize import minimize
 import warnings
 
 # Input data using Panda library
-data = pd.read_csv('../data/04_cricket_1999to2011.csv')
+data = pd.read_csv('04_cricket_1999to2011.csv')
 
 # converting the input into data frames of columns and rows
 sel_data = pd.DataFrame(data, columns = ['Match', 'Innings', 'Runs.Remaining', 'Wickets.in.Hand','Over', 'Innings.Total.Runs'])
